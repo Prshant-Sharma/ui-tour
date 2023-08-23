@@ -1,0 +1,86 @@
+.sidebar {
+    .registration-step {
+      position: relative;
+      list-style: none;
+      top: 4rem;
+      &-item {
+        position: relative;
+        color: #667085;
+        font-size: 1.143rem;
+        padding-left: 2.857rem;
+        top: 0.214rem;
+        cursor: default;
+        &:not(:last-child) {
+          padding-bottom: 1.786rem;
+        }
+        &::after {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          top: 0.85rem;
+          left: 0.714rem;
+          border-radius: 50%;
+          width: 1.143rem;
+          height: 1.143rem;
+          background: #98a2b3;
+        }
+        small {
+          position: absolute;
+          left: 1.071rem;
+          top: 0.65rem;
+          z-index: 1;
+          font-size: 0.714rem;
+        }
+        p {
+          cursor: pointer;
+          padding: 0.85rem;
+          margin: 0;
+        }
+        span {
+          position: absolute;
+          left: 0.929rem;
+          top: 1.05rem;
+          z-index: 1;
+          font-size: 0.714rem;
+        }
+        .is-active {
+          background-color: #fff;
+          padding: 0.85rem;
+          color: #000;
+          border-radius: 50px 0 0 50px;
+          margin: 0;
+          &:before {
+            content: '';
+            position: absolute;
+            top:-20px;
+            right: 0;
+            width: 20px;
+            height:20px;
+            background: transparent;
+            border-radius: 50%;
+            box-shadow: 10px 10px 0 #fff;
+          }
+          
+          &:after {
+            content: '';
+            position: absolute;
+            bottom:5px;
+            right: 0;
+            width: 20px;
+            height:20px;
+            background: transparent;
+            border-radius: 50%;
+            box-shadow: 10px -10px 0 #fff;
+          }
+        }
+      }
+      h5 {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.429rem;
+        color: #ffffff;
+        position: relative;
+        left: 0.714rem;
+      }
+    }
+}
