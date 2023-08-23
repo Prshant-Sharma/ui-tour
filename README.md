@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
+Here, I want to achieve UI tour guide once anyone clicks the sidebar tab - A guide overlay will be opened to describe what the tab contains and what will it do. (Can change the tour guide flow later.)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
